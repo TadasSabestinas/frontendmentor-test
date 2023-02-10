@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Outfit';
+}
+.container{
+  background-color: #0d1a2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0px;
+}
+
+.background1{
+  background-color: #0c192c;
+  max-width: 380px;
+  padding: 33px 33px 36px 33px;
+  border-radius: 58px;
+}
+
+.background2{
+  background-color: #0c1729;
+  padding: 16px 16px 36px 16px;
+  max-width: 350px;
+  border-radius: 32px;
+}
+
+p{
+  color: #7c92b3;
+  text-align: left;
+}
+h1{
+  font-size: 24px;
+}
+
+.inner-div {
+  background-color: #15273f;
+  padding: 25px;
+  text-align: center;
+  max-width: 340px;
+  border-radius: 16px;
+}
+
+.title-name{
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+a:active{
+  color: #01fefa;
+}
+
+a:hover{
+  color: #01fefa;
+}
+
+.inner-div .equilibrium-logo {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.description{
+  font-size: 18px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left {
+  float: left;
+  width: 40%;
+}
+
+.float-right {
+  float: right;
+  width: 40%;
+}
+.ethereum {
+  width: 10px;
+  height: 15px;
+  margin-right: 5px;
+}
+.clock {
+  width: 15px;
+  height: 15px;
+  margin-left: 25px;
+}
+.avatar{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  color: white;
+  border: 1px solid;
+  border-radius: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
